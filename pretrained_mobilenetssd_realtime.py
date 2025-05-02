@@ -3,7 +3,13 @@
 
 @author: abhilash
 """
+!pip install torch torchvision torchaudio 
 
+import os
+
+os.environ["KERAS_BACKEND"] = "torch"
+
+import keras
 import numpy as  np
 import cv2
 
